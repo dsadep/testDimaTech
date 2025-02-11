@@ -35,7 +35,7 @@ cd testDimaTech
 
 3. Установите зависимости:
 
-  ``` pip install -r requirements.txt```
+  ```pip install -r requirements.txt```
    
 
 4. Создайте файл .env и .env-non-dev в корне проекта и добавьте ваши переменные окружения и заполните их в соответствии с .env.example и .env-non-dev.example
