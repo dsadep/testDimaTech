@@ -53,3 +53,15 @@ cd testDimaTech
    
 
 7. Документация к API будет доступна по адресу http://localhost:8000/docs.
+
+   ###Тестовые данные для админа и пользователя
+Админ:
+```
+email: admin@example.com
+password: admin123
+```
+Пользователь:
+```
+email: user@example.com
+password: test
+```
