@@ -16,12 +16,13 @@ cd testDimaTech
 ### С использованием Docker Compose
 
 1. Создайте файл .env и .env-non-dev в корне проекта и добавьте ваши переменные окружения и заполните их в соответствии с .env.example и .env-non-dev.example
-
-2. Запустите приложение с помощью Docker Compose:
-
-   ```docker-compose up --build```
    
-3. Документация к API будет доступна по адресу http://localhost:7777/docs.
+
+3. Запустите приложение с помощью Docker Compose(Docker Desktop должен быть запущен):
+
+   ```docker compose up --build```
+   
+4. Документация к API будет доступна по адресу http://localhost:7777/docs.
 
 ### Без Docker
 
