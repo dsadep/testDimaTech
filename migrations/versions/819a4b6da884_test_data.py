@@ -21,13 +21,6 @@ depends_on: Union[str, Sequence[str], None] = None
 def upgrade() -> None:
     op.execute(
         """
-        INSERT INTO bills (balance, user_id) VALUES 
-        (0.0, 1),
-        (0.0, 2);
-        """
-    )
-    op.execute(
-        """
         INSERT INTO users (full_name, email, role, hashed_password) VALUES 
         ('admin', 'admin@example.com', 'admin', '$2b$12$lyxUKBvT8NJudO2OVQ6IPO4FKB8bGNkZHc5F0g5QltQbdX00znzOa'),
         ('user', 'user@example.com', 'user', '$2b$12$H8neYqfy/HJ2XCtN1xeEr.nONN5aDR7ZPJRM.VbxysxwsYvz0Yrk2');
